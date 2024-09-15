@@ -9,9 +9,10 @@
 </head>
 
 <body>
-    <h1>Even</h1>
+    <centre><h1>Even</h1></centre>
     <div class="form">
         <form>
+            <fieldset>
             <p>Name<sup>*</sup></p>
             <input type="text" name="name" id="name" required placeholder="Name"><br><br>
             <p>Email<sup>*</sup></p>
@@ -35,11 +36,14 @@
             <input type="checkbox" id="sub">
             <label for="sub">subscribe to newsletter</label><br><br>
             <input type="submit">
+            </fieldset>
         </form>
     </div>
-    <h1>ODD</h1>
+    <centre><h1>ODD</h1></centre>
     <div class="form">
-        <form><label class="required">Name</label>
+        <form>
+            <fieldset>
+            <label class="required">Name</label>
             <input class="highlight" type="text" name="name" id="name" required placeholder="Name"><br><br>
             <label class="required">DOB</label>
             <input class="highlight" type="date" name="dob" id="dob" required><br><br>
@@ -51,6 +55,7 @@
             <input class="highlight" type="text" name="city" id="city" required><br><br>
             <input type="checkbox">I agree to the terms and conditions<br><br>
             <input type="submit">
+            </fieldset>
         </form>
     </div>
 </body>
